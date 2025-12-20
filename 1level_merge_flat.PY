@@ -1,15 +1,4 @@
-# def mergeall(lis1,lis2,lis3,reverse=False):
-#     lis=[]
-#     lis.extend(lis1)
-#     lis.extend(lis2)
-#     lis.extend(lis3)
-    
-#     if reverse==True:
-#         lis.reverse()
-#     print(lis)
-
-# mergeall([1,2,3],[4,5],[6,7,[8,9]])   
-# mergeall([1,2,3],[4,5],[6,7,[8,9]]) 
+#merge list and flatten it one level
 
 def merge(*lists,reverse=False):
     result=[]
@@ -27,4 +16,3 @@ def merge(*lists,reverse=False):
     print(result)
     
 merge([1,2,3],[4,5],[6,7,[8,9]],reverse=True)
-# merge([1,2,3],[4,5],[6,7,[8,[9,10]]])  
