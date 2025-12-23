@@ -39,4 +39,3 @@ def check():
         return 1
     elif len(set(lis2d))==1 and lis2d[0]=='x':
         return 0
-        
